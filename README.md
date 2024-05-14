@@ -38,6 +38,3 @@ This project is licensed under the [MIT License](LICENSE).
 - Google AI NLP for enabling advanced language processing capabilities.
 - MySQL for efficient data management and backend integration.
 
-## Contact
-
-For questions, feedback, or support, contact [Your Name](mailto:hammaadrizwan@gmail.com).

@@ -1,42 +1,38 @@
 # Alaina - AI Waitress Application
 
-Alaina is an AI waitress application designed to streamline the ordering process for restaurants through natural language understanding and backend integration. Built on Dialogflow using Google AI NLP and MySQL, Alaina aims to provide a seamless and efficient ordering experience for both customers and restaurant staff.
+Alaina is an AI-driven chatbot designed to assist startups, particularly restaurants, by automating order taking, order tracking, inventory updates, and customer support. Built using Dialogflow's NLP classification from Google, Alaina aims to reduce labor costs for sole traders, allowing them to focus on delivering their products.
 <br>
+<br>
+
 <img src="Usage.png">
-Caption: Alaina usage demonstration
+
+## Introduction
+Alaina: AI Waitress is a scalable chatbot solution initially designed for restaurants but adaptable to various other industries. It helps automate key business processes, thereby reducing the need for human labor and improving operational efficiency.
+
+## Architecture
+The architecture of Alaina is designed to handle multiple user interactions seamlessly. Below is an overview of the system architecture:
+
+<img src="architecture.png">
+
+- **Frontend**: The user interface accessed through a website.
+  - **Load Balancer (ngrok)**: Distributes incoming traffic across multiple servers to ensure reliability and scalability.
+  - **Website**: Interface where users interact with the chatbot.
+
+- **Backend**: Handles the core functionalities of the chatbot.
+  - **Alaina (Dialogflow Chatbot)**: The main chatbot application that processes user queries and interacts with the backend systems.
+  - **FastAPI**: Deployment framework for the chatbot, enabling API functionalities.
+  - **Relational Database**: Stores and syncs data related to orders, inventory, and customer interactions.
+
 ## Features
+- **Takes Orders**: Users can place orders through the chatbot.
+- **Track Order Status**: Users can track the status of their orders in real-time.
+- **Updates Inventory**: Automatically updates inventory based on orders placed and fulfilled.
+- **Customer Support**: Provides automated support for common customer inquiries.
 
-- **Natural Language Understanding**: Alaina leverages Google AI NLP to understand natural language queries and commands from customers.
-  
-- **Order Management**: Alaina seamlessly integrates with a MySQL backend to manage orders, ensuring accuracy and efficiency in the ordering process.
-  
-- **Customizable Responses**: Restaurant owners can customize Alaina's responses to match their brand personality and provide personalized interactions with customers.
-
-## Getting Started
-
-To get started with Alaina, follow these steps:
-
-1. **Dialogflow Setup**: Create a Dialogflow agent and import the provided intents and entities to enable natural language understanding.
-
-2. **MySQL Integration**: Set up a MySQL database to store and manage orders. Update the database credentials in the backend code for seamless integration.
-
-3. **Backend Deployment**: Deploy the backend code to a server or cloud platform of your choice. Ensure that the backend is accessible to the Dialogflow agent for order management.
-
-4. **Dialogflow Fulfillment**: Configure Dialogflow fulfillment to communicate with the backend for order processing. Update the fulfillment code with the appropriate endpoints and logic to handle orders.
-
-5. **Testing and Training**: Test Alaina extensively to ensure smooth interactions and accurate order processing. Train the Dialogflow agent with additional phrases and variations to improve natural language understanding.
-
-## Contributing
-
-Contributions to Alaina are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgements
-
-- Google Dialogflow for providing a powerful natural language understanding platform.
-- Google AI NLP for enabling advanced language processing capabilities.
-- MySQL for efficient data management and backend integration.
-
+## Technologies Used
+- **Dialogflow**: For natural language processing and chatbot functionalities.
+- **Python**: Core programming language used for backend development.
+- **FastAPI**: A modern, fast (high-performance) web framework for building APIs with Python.
+- **ngrok**: For local development and exposing local servers to the internet.
+- **Relational Database**: For storing order, inventory, and customer data.
+- **Power BI**: Used in data analysis projects related to the system.

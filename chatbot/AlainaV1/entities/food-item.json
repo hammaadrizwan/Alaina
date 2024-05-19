@@ -1,0 +1,9 @@
+{
+  "id": "6e905b8d-1b0d-4cd1-9075-1119adacb7e6",
+  "name": "food-item",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}

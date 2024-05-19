@@ -1,0 +1,34 @@
+[
+  {
+    "value": "Hummus",
+    "synonyms": [
+      "Hummus",
+      "humoos",
+      "chick peas",
+      "peas"
+    ]
+  },
+  {
+    "value": "Pizza",
+    "synonyms": [
+      "Pizza"
+    ]
+  },
+  {
+    "value": "Coca-cola",
+    "synonyms": [
+      "Coca-cola",
+      "cola",
+      "coke",
+      "Coke",
+      "Cola"
+    ]
+  },
+  {
+    "value": "Shawarma",
+    "synonyms": [
+      "Shawarma",
+      "Wrap"
+    ]
+  }
+]

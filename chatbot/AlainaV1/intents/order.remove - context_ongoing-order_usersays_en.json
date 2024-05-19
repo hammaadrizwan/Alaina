@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c8046db3-4b36-474b-b745-141ccb1ae8a2",
+    "data": [
+      {
+        "text": "I dont want ",
+        "userDefined": false
+      },
+      {
+        "text": "Hummus",
+        "meta": "@food-item",
+        "alias": "food-item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d447bfd-eb00-467e-957a-ec15c63c4e01",
+    "data": [
+      {
+        "text": "Remove ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@food-item",
+        "alias": "food-item",
+        "userDefined": false
+      },
+      {
+        "text": " from the order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

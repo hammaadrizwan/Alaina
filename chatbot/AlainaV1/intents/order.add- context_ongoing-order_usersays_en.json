@@ -1,0 +1,138 @@
+[
+  {
+    "id": "74d19124-c7be-4f0e-9679-59d817007b30",
+    "data": [
+      {
+        "text": "Additionally, add ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Shawarma",
+        "meta": "@food-item",
+        "alias": "food-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83065eab-ef06-4f8c-9f67-3908903583c8",
+    "data": [
+      {
+        "text": "I want to have ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Coca-Cola",
+        "meta": "@food-item",
+        "alias": "food-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3131f77-4495-4130-b5fc-c9a3cc2ecd9c",
+    "data": [
+      {
+        "text": "I want to have ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Coke",
+        "meta": "@food-item",
+        "alias": "food-item",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "seven",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " bowls of ",
+        "userDefined": false
+      },
+      {
+        "text": "Hummus",
+        "meta": "@food-item",
+        "alias": "food-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f9d5aa0e-5350-4ef6-9785-ac28caa988f9",
+    "data": [
+      {
+        "text": "I want to add ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Pizzas",
+        "meta": "@food-item",
+        "alias": "food-item",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

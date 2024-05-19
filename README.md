@@ -1,7 +1,9 @@
 # Alaina - AI Waitress Application
 
 Alaina is an AI waitress application designed to streamline the ordering process for restaurants through natural language understanding and backend integration. Built on Dialogflow using Google AI NLP and MySQL, Alaina aims to provide a seamless and efficient ordering experience for both customers and restaurant staff.
-
+<br>
+<img src="Usage.png">
+Caption: Alaina usage demonstration
 ## Features
 
 - **Natural Language Understanding**: Alaina leverages Google AI NLP to understand natural language queries and commands from customers.
